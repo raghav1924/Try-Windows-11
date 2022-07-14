@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* background-image: url(bg.jpeg) ; */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.taskbar {
+    position: absolute;
+    background: #f3f3f3;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    z-index: 110;
+
+}
+
+.startmenu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* bottom: 50px; */
+    bottom: -660px;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img {
+    border-radius: 8px;
+}
+
+.right {
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 5px 0px;
+    height: 80%;
+}
+
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 100px;
+    margin: 15px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img {
+    width: 77px;
+    margin: 4px;
+}
+.icons div{
+    /* width: 40px; */
+    color: white;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+video {
+    z-index: -1;
+}
